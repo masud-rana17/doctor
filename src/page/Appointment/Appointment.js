@@ -41,7 +41,7 @@ const Appointment = () => {
                 <div className='grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-4'>
                     {
                         services?.map((service) => <div className=" card w-96 bg-base-100 shadow-xl image-full" key={service._id}>
-                            <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
+                            <figure><img src="https://picsum.photos/200/300" alt="Shoes" /></figure>
                             <div className="card-body">
                                 <h2 className="card-title" key={service._id}>{service.name}</h2>
                                 <p>If a dog chews shoes whose shoes does he choose?</p>
